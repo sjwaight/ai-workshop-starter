@@ -85,3 +85,5 @@ def get_image(request):
         return Image(request.files["file"])
     else:
         return Image()
+
+# Add helper functions here!
